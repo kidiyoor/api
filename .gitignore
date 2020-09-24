@@ -13,10 +13,6 @@
 *.dylib
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
-
 # Compiled Static libraries
 *.lai
 *.la
@@ -29,6 +25,7 @@
 *.app
 
 .idea/
+.project
 
 # Bazel
 /bazel-*
@@ -38,3 +35,8 @@
 genbin/
 
 /vendor
+
+.htmlproofer
+
+# Contains the built artifacts
+out/
